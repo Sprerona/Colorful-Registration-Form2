@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background:linear-gradient(rgb(42, 174, 240)50%,rgb(126, 83, 255)50%);
+    background-image: url(../Images/giphy.gif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.form{
+    width: 250px;
+    height: 550px;
+    color: rgba(249, 40, 162, 0.936);
+    background: linear-gradient(rgb(255, 206, 229)50%,rgb(255, 206, 229)50,rgb(255, 206, 229)50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    border:2px solid rgb(0, 217, 255);
+    border-radius: 25px;
+    opacity: 1.2;
+    background-image: url(../Images/pngtree-764286.jpg);
+}
+.form h1{
+    color: rgb(182, 255, 114);
+    font-weight:bold;
+    font-style:inherit;
+}
+.form button{
+    background-color:rgba(255, 70, 135, 0.918);
+    border-radius: 10px;
+    color:white;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 4px 2px;
+}
+.form input{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    border-left-color:  black;
+    border-right-color:blueviolet
+}
+.form select{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    border-left-color: black;
+    border-right-color:blueviolet;
+
+}
+.form h3{
+    color: rgb(255, 29, 161);
+    font-weight: lighter;
+    font-style: normal;
+}
+
+
+
+
